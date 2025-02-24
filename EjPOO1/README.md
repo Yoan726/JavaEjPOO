@@ -1,18 +1,16 @@
-## Getting Started
+# Proyecto: Gestión de Libros  
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este proyecto en Java fue desarrollado a partir de un **fork** de otro repositorio y permite gestionar información de libros utilizando Programación Orientada a Objetos (POO).  
 
-## Folder Structure
+## Descripción  
+El programa permite ingresar los datos de un libro (ISBN, título, autor y número de páginas) desde la consola y luego muestra la información ingresada.  
 
-The workspace contains two folders by default, where:
+## Estructura del Proyecto  
+- `src/models/Libro.java` → Define la clase `Libro` con atributos y métodos.  
+- `src/App.java` → Contiene el `main` que gestiona la interacción con el usuario.  
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Instrucciones de Uso  
+1. **Compilación:**  
+   Ejecuta el siguiente comando en la terminal dentro del directorio del proyecto:  
+   ```sh
+   javac src/models/Libro.java src/App.java
